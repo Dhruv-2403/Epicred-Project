@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import img from "../../FooterImages/Facebook.png"
 import img2 from "../../FooterImages/Instagram.png"
 import img3 from "../../FooterImages/Twitter.png"
-import img4 from "/src/FooterImages/Linkedin.png"
+import img4 from "../../FooterImages/Linkedin.png"
 import img5 from "../../FooterImages/Dribbble.png"
 import img6 from "../../FooterImages/Frame 3.png"
 
