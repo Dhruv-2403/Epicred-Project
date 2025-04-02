@@ -1,0 +1,153 @@
+
+.image{
+  margin-top:25px;
+}
+
+
+.job-search-hero {
+  padding: 6rem 0;
+  background-color: #F8F8FD;
+  position: relative;
+  width:1440px;
+  height:800px;
+
+}
+
+
+
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #1F2937;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+
+
+
+.hero-description {
+  font-size: 1.25rem;
+  color: #6B7280;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.search-form {
+  margin-bottom: 2rem;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+.search-inputs {
+  display: flex;
+  gap: 1rem;
+  background: white;
+  padding: 0.5rem;
+ 
+  
+  
+}
+
+
+
+
+.search-button {
+  padding: 0.75rem 2rem;
+  background: #4F46E5;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+ 
+}
+
+.search-button:hover {
+  background: #4338CA;
+}
+
+.popular-searches {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #6B7280;
+}
+
+.popular-tags {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.popular-tags span {
+  color: #111827;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.hero-image {
+  position: relative;
+  height: 100%;
+  padding: 2rem;
+  width: 600px;
+  background-size: cover;
+  background-image: url("../../HeaderImage/Pattern.png");
+} 
+
+.person-image {
+ 
+
+
+
+  z-index: 1;
+ 
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  width:500px;
+  height:700px;
+
+}
+
+.diagonal-bg {
+  position: absolute;
+  top: -10%;
+  right: -10%;
+  bottom: -10%;
+  left: 40%;
+  background: #ffffff;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+  overflow: hidden;
+}
+
+.rectangle-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+}

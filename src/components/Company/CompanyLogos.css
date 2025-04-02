@@ -1,0 +1,76 @@
+.company-logos {
+    
+  padding: 2rem 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid #E5E7EB;
+  width:1440px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+}
+
+.section-title {
+    width:243px;
+    height:28px;
+font-size:18px;
+  color: #64748B;
+    opacity:0.5;
+    color:black;
+    font-family: epilogue;
+    font-weight: 400;
+  margin-bottom: 2rem;
+
+}
+
+.logos-container {
+    margin-left:25px;
+color:gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  width:1194px;
+  height:40px;
+  flex-wrap: wrap;
+}
+
+.logo-item {
+
+  width: 82.06px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+
+}
+
+.logo-item-1 {
+    width:153px;
+    height: 40px;
+    opacity:0.6;
+}
+
+.logo-item-2 {
+    width:183px;
+    height: 24px;
+    opacity:0.6;
+}
+
+.logo-item-3 {
+    width:117px;
+    height: 28px;
+    opacity:0.6;
+}
+
+.logo-item-4 {
+    width:108px;
+    height: 32px;
+    opacity:0.6;
+}
+
+
